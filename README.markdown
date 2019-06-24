@@ -1,4 +1,4 @@
-Test edit from Hari 2nd time.\n
+Added HTML PUB\n
 This is a simple demonstration application used in the [Jenkins: The Definitive Guide](http://wakaleo.com/books/jenkins-the-definitive-guide) book.
 
 ## Building the project

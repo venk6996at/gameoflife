@@ -1,8 +1,8 @@
-FROM tomcat:8-jre8
+FROM tomcat:9.0
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-COPY /gameoflife-web/target/gameoflife.war /usr/local/tomcat/webapps/ROOT.war
+COPY /gameoflife-web/target/gameoflife.war /usr/local/tomcat/webapps/gameoflife.war
 
 EXPOSE 8080
 
